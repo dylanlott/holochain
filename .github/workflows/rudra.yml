@@ -7,6 +7,7 @@ inputs:
     default: '.'
 
 runs:
+  on: ["push"]
   using: 'docker'
   image: '.github/action.Dockerfile'
   args:
